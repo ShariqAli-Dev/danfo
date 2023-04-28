@@ -20,8 +20,8 @@ pnpm dev
 
 This will start a Vite development server and the application will be available at http://localhost:5173/.
 
-To use the application, upload any .csv file selecting the "Choose File" button and then selecting the "Convert To Dataframe" button. The file will be uploaded to the server and a dataframe will be generated using the Danfo.js library. The resulting dataframe will be displayed as an interactive table.
+To use the application, upload any .csv file selecting the "Choose File" button and then selecting the "Convert To Dataframe" button. If you don't have a csv file in mind, you can use the test file at `src/testInput.csv`. THe file will be uploaded to the server and a dataframe will be generated using the Danfo.js library. The resulting dataframe will be displayed as an interactive table.
 
 ## Development
 
-If you would like to modify this applicaiton, you can do so by editing the `App.tsx` file. The applicaiton uses the React Library and Vite Development server with PNPM as its package manager.
+If you would like to modify this applicaiton, you can do so by editing the `App.tsx` file. The applicaiton uses the React Library and Vite Development Server with PNPM as its package manager.
