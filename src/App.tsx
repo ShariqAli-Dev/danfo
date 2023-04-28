@@ -1,9 +1,5 @@
-import { useState } from "react";
-
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <>eyy</>;
+  return <div>danfo is cool</div>;
 }
 
 export default App;
